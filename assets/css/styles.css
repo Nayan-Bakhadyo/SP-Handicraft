@@ -1,0 +1,28 @@
+.hidden>div {
+	display:none;
+}
+
+.visible>div {
+	display:block;
+}
+.hidden{
+    display:none;
+}
+::-webkit-scrollbar{
+	width:10px;
+
+}
+::-webkit-scrollbar-track{
+	border:1px solid#232943;
+	border-radius:20px;
+	
+
+}
+::-webkit-scrollbar-thumb{
+	background:linear-gradient(
+		white,
+		gray,
+		white
+	);
+		border-radius: 20px;
+}
